@@ -285,35 +285,35 @@
                  <ComponentRef Id="PathEnvPerUser" />
         </Feature>
         <Feature Id="RustFmt"
-                 Title="Formatter for rust"
+                 Title="Formatter for Rust"
                  Display="7"
                  Level="1"
                  AllowAdvertise="no">
                  <ComponentGroupRef Id="RustFmtGroup" />
         </Feature>
         <Feature Id="Clippy"
-                 Title="Formatter and checker for rust"
+                 Title="Formatter and checker for Rust"
                  Display="8"
                  Level="1"
                  AllowAdvertise="no">
                  <ComponentGroupRef Id="ClippyGroup" />
         </Feature>
         <Feature Id="Miri"
-                 Title="Soundness checker for rust"
+                 Title="Soundness checker for Rust"
                  Display="9"
                  Level="1"
                  AllowAdvertise="no">
                  <ComponentGroupRef Id="MiriGroup" />
         </Feature>
         <Feature Id="RustAnalyzer"
-                 Title="Analyzer for rust"
+                 Title="Analyzer for Rust"
                  Display="10"
                  Level="1"
                  AllowAdvertise="no">
                  <ComponentGroupRef Id="RustAnalyzerGroup" />
         </Feature>
         <Feature Id="Analysis"
-                 Title="Analysis for rust"
+                 Title="Analysis for Rust"
                  Display="11"
                  Level="1"
                  AllowAdvertise="no">

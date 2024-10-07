@@ -16,7 +16,6 @@ use std::{cmp, env, fs};
 use build_helper::exit;
 use build_helper::git::{GitConfig, get_closest_merge_commit, output_result};
 use serde::{Deserialize, Deserializer};
-use serde_derive::Deserialize;
 
 use crate::core::build_steps::compile::CODEGEN_BACKEND_PREFIX;
 use crate::core::build_steps::llvm;
